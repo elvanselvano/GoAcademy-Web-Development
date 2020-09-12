@@ -2,6 +2,7 @@ import React from "react";
 import TextInput from "./TextInput";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import "../css/Navigation.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,10 +17,16 @@ function Navigation() {
 
   return (
     <div className={classes.root}>
-      <TextInput />
-      <Button variant="contained" color="primary">
-        Change City
-      </Button>
+      <div className="nav">
+        <div className="nav__item">
+          <TextInput />
+        </div>
+        <div className="nav__item">
+          <Button variant="contained" color="primary">
+            Change City
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }

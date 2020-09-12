@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item {
+  margin: 5px;
+}

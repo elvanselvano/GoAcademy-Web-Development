@@ -1,9 +1,12 @@
 import React from "react";
+import "../css/Header.css";
 
 function Header() {
   return (
     <div>
-      <h1 className="header__title">GoZomato</h1>
+      <div class="background__image">
+        <h1 className="header__title">GoZomato</h1>
+      </div>
     </div>
   );
 }
