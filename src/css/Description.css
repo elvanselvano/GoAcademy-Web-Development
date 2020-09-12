@@ -1,0 +1,11 @@
+.table {
+  /* padding: 10px; */
+  /* background-color: skyblue; */
+  /* border: 1px solid black; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 40px; */
+}

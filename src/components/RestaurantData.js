@@ -6,7 +6,7 @@ const restaurants = [
     title: "Yoshinoya",
     cuisine: "Japanese",
     budget: "$$",
-    rating: "****",
+    rating: "⭐️⭐️⭐️",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const restaurants = [
     title: "Sushi Hiro",
     cuisine: "Japanese",
     budget: "$$$",
-    rating: "*****",
+    rating: "⭐️⭐️⭐️⭐️⭐️",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const restaurants = [
     title: "Dough Lab",
     cuisine: "Desserts",
     budget: "$$$$$",
-    rating: "***",
+    rating: "⭐️⭐️⭐️",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const restaurants = [
     title: "Sichuan Palace",
     cuisine: "Asian",
     budget: "$$$$",
-    rating: "****",
+    rating: "⭐️⭐️⭐",
   },
 ];
 

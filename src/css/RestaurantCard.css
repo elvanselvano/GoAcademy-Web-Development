@@ -1,0 +1,13 @@
+.restaurant__card:hover {
+  transform: scale(1.04);
+  transition: all 0.25s;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 610px;
+  margin: 0 auto;
+  padding: 20px;
+}
