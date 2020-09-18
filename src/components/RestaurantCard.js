@@ -20,21 +20,18 @@ const useStyles = makeStyles({
   },
 });
 
-function RestaurantCard(props) {
+function RestaurantCard({ data }) {
+  const { name, picture, cuisines, priceRange, rating, establishments } = data;
   const classes = useStyles();
   return (
     <Card className="restaurant__card">
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={props.imageURL}
-          title={props.title}
-        />
+        <CardMedia className={classes.media} image={picture} title={name} />
         <Description
-          title={props.title}
-          cuisine={props.cuisine}
-          budget={props.budget}
-          rating={props.rating}
+          title={name}
+          cuisine={cuisines}
+          budget={priceRange}
+          rating={rating}
         />
       </CardActionArea>
     </Card>
