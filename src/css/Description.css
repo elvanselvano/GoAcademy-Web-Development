@@ -8,4 +8,17 @@
   display: flex;
   justify-content: space-between;
   /* margin: 40px; */
+  padding: 0;
+  margin: 0;
+}
+
+.secondRow {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.dollar {
+  margin-top: 0;
+  margin-bottom: 0;
 }

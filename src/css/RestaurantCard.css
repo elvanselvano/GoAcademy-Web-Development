@@ -5,9 +5,9 @@
 
 .items {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 25px;
-  width: 610px;
+  width: 1220px;
   margin: 0 auto;
   padding: 20px;
 }
