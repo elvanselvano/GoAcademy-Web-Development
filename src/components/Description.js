@@ -11,15 +11,12 @@ function Description({ title, cuisine, budget, rating }) {
   return (
     <div>
       <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
-          {/* {props.title} */}
-        </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           <div className="row">
             <span>
-              <strong>{title}</strong>
+              <strong>{truncate(title, 18)}</strong>
             </span>
-            <span>{truncate(cuisine, 20)}</span>
+            <span>{truncate(cuisine, 13)}</span>
           </div>
           <div className="row">
             <div className="secondRow">

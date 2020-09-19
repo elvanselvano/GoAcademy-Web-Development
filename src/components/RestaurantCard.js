@@ -12,7 +12,7 @@ import "../css/RestaurantCard.css";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 365,
     marginBottom: 40,
   },
   media: {
