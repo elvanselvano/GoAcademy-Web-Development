@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 });
 
 function RestaurantCard({ data }) {
-  const { name, picture, cuisines, priceRange, rating, establishments } = data;
+  const { name, picture, cuisines, priceRange, rating } = data;
   const classes = useStyles();
   return (
     <Card className="restaurant__card">

@@ -1,14 +1,11 @@
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import RestaurantCard from "./components/RestaurantCard";
-// import restaurants from "./components/RestaurantData";
 import "./css/RestaurantCard.css";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { getCities, searchRestaurants } from "./api";
 import { parseCitySuggestions, parseSearchRestaurants } from "./utils";
-import CitySuggestions from "./city-suggestions";
-import Restaurants from "./restaurants";
 
 import "./css/Header.css";
 
@@ -20,7 +17,6 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import DirectionsIcon from "@material-ui/icons/Directions";
-import { YoutubeSearchedFor } from "@material-ui/icons";
 
 function App() {
   const [input, setInput] = useState("");
@@ -84,12 +80,9 @@ function App() {
   return (
     <div>
       {error && <div>Error: {error}</div>}
-      {/* <Header /> */}
-      {/* INPUT FIELD */}
       <div>
         <div class="background__image">
           <h1 className="header__title">GoZomato</h1>
-          {/* <Navigation /> */}
           <div className="nav">
             <Paper
               component="form"
